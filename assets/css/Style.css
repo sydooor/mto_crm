@@ -1,0 +1,88 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #DEF1FF;
+	scrollbar-face-color: #DEE3E7;
+	scrollbar-highlight-color: #FFFFFF;
+	scrollbar-shadow-color: #DEE3E7;
+	scrollbar-3dlight-color: #D1D7DC;
+	scrollbar-arrow-color:  #006699;
+	scrollbar-track-color: #EFEFEF;
+	scrollbar-darkshadow-color: #98AAB1;
+}
+body,td,th {
+	font-size: 12px;
+	color: #333333;
+}
+a:link {
+	color: #0066FF;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #0066FF;
+}
+a:hover {
+	text-decoration: none;
+	color: #FF6600;
+}
+a:active {
+	text-decoration: none;
+	color: #FF6600;
+}
+/*
+td {
+	background-color: #FDFDFD;
+}
+*/
+.tableGlobal {
+	background-color: #75C2D0;
+}
+.tableTitle {
+	background-color: #D5DDDE;
+	font-weight: bold;
+}
+.tableBody  {
+	background-color: #F1F9FF;
+}
+.input {
+	border: 1px solid #3366CC;
+}	
+.title {
+	color: #007DC5;
+	font-weight: bold;
+	font-size:14px;
+	}
+.button {
+	BORDER-RIGHT: #cccccc 3px double; 
+	PADDING-RIGHT: 5px; 
+	BORDER-TOP: #cccccc 3px double; 
+	PADDING-LEFT: 5px; FONT-WEIGHT: bold; 
+	FONT-SIZE: 11px; BACKGROUND: url(/assets/images/button_bg.png) repeat-x; 
+	PADDING-BOTTOM: 0px; MARGIN: 1px; BORDER-LEFT: #cccccc 3px double; 
+	WIDTH: auto; COLOR: #007DC5; LINE-HEIGHT: 16px; 
+	PADDING-TOP: 0px; BORDER-BOTTOM: #cccccc 3px double; 
+	FONT-FAMILY: Arial, Hevlvetica, sans-serif; HEIGHT: 24px; 
+	TEXT-ALIGN: center
+}
+.title {color: #007DC5;
+	font-weight: bold;
+	font-size:14px;
+}
+.txtRed {
+	color: #FF0000;
+}
+.txtYellow {
+	color: #FFFF00;
+}
+.txtBlue {
+	color: #0000FF;
+}
+.DIVsrcoll {
+	BORDER-RIGHT: #336699 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #336699 1px solid; 
+	OVERFLOW-Y: scroll; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; 
+	BORDER-LEFT: #336699 1px solid; WIDTH: 85%; PADDING-TOP: 2px; 
+	BORDER-BOTTOM: #336699 1px solid; HEIGHT: 100%; BACKGROUND-COLOR: #ffffff
+}
