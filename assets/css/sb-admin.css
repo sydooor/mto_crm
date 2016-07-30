@@ -93,7 +93,7 @@ table.tablesorter thead tr th:hover {
   }
 
   #page-wrapper {
-	padding: 15px 25px;
+	padding: 15px 25px 15px 50px;
   }
 
   /* Side Nav */
@@ -101,14 +101,21 @@ table.tablesorter thead tr th:hover {
   .side-nav {
 	margin-left: -225px;
 	left: 225px;
-	width: 225px;
+	width: 250px;
 	position: fixed;
 	top: 50px;
 	height: 100%;
 	border-radius: 0;
 	border: none;
-	background-color: #274144;
+	background-color: #F8F8F8;
 	overflow-y: auto;
+  box-shadow: 4px 2px 5px rgba(0, 0, 0, 0.2);
+  padding:20px 0 80px 0;
+  margin-top: 1px;
+  }
+  .side-nav .dropdown{
+    display: none;
+    width:100%;
   }
 
   /* Bootstrap Default Overrides - Customized Dropdowns for the Side Nav */
@@ -126,15 +133,19 @@ table.tablesorter thead tr th:hover {
   }
 
   .side-nav>li.dropdown>ul.dropdown-menu>li>a {
-	color: #999999;
-	padding: 15px 15px 15px 25px;
+	color: #000;
+  font-weight: bold;
+  font-size: 18px;
+	/* padding: 15px 15px 15px 25px; */
+  padding:0;
+  text-indent: 1em;
   }
 
   .side-nav>li.dropdown>ul.dropdown-menu>li>a:hover,
   .side-nav>li.dropdown>ul.dropdown-menu>li>a.active,
   .side-nav>li.dropdown>ul.dropdown-menu>li>a:focus {
-	color: #fff;
-	background-color: #080808;
+  color:#000;
+  background-color: #F8F8F8;
   }
 
   .side-nav>li>a {
@@ -143,7 +154,8 @@ table.tablesorter thead tr th:hover {
 
   .navbar-inverse .navbar-nav>li>a:hover,
   .navbar-inverse .navbar-nav>li>a:focus {
-	background-color: #080808;
+  color:#000;
+  background:#FFBA00; font-weight:bold;
   }
 
   /* Nav Messages */
@@ -155,5 +167,63 @@ table.tablesorter thead tr th:hover {
   .messages-dropdown .dropdown-menu li a {
 	white-space: normal;
   }
+  .navigation_main li{
+    float: left;
+    width:100px;
+    height:50px;
+    line-height: 50px;
+    text-align: center;
+    list-style: none;
+  }
+  .navigation_main li a{
+    text-decoration: none;
+    color:#999999;
+    display: block;
+    height:100%;
+    width: 100%;
+  }
+  .navigation_main .navigation_main_1{
+    margin-left:250px;
+  }
+  .navigation_main li:first-of-type{
+    margin-left:250px;
+  }
+  .navigation_main li a:hover,.navigation_main li a:focus{
+    color:#fff;
+  }
+  .dropdown-menu > li > a.change_status{
+    background-color: #006ecc;
+    color:#fff;
+    text-align: right;
+    padding-right:20px;
+    font-weight: bold;
+  }
+  #user-dropdown_new .dropdown-toggle{
+    color:#fff;
+    font-weight: normal;
+  }
+  #user-dropdown_new a.dropdown-toggle:hover,#user-dropdown_new a.dropdown-toggle:focus,#user-dropdown_new a.dropdown-toggle:active{
+    color:#fff;
+    font-weight: normal;
+    background-color: transparent;
+  }
+  #user-dropdown_new #ul_personal_center{
+    display: none;
+    top: 41px;
+  }
+  #user-dropdown_new #ul_personal_center li{
+    
+    background: #eee;
+    text-align: center;
+  }
+  #user-dropdown_new #ul_personal_center li a{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: transparent;
+  }
+  #user-dropdown_new #ul_personal_center li a:hover{
+    background: #D4D4D4;
+  }
 
 }
+

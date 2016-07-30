@@ -1,0 +1,4 @@
+ERROR - 2016-07-30 10:02:44 --> 404 Page Not Found: Faviconico/index
+ERROR - 2016-07-30 10:05:45 --> Severity: Notice --> Use of undefined constant COMMON_APP_PATH - assumed 'COMMON_APP_PATH' /Users/michael/Documents/workspace/mto_crm/application/controllers/Manageuser.php 3
+ERROR - 2016-07-30 10:05:45 --> Severity: Warning --> require_once(COMMON_APP_PATHmodels/vo/ManageUserVo.php): failed to open stream: No such file or directory /Users/michael/Documents/workspace/mto_crm/application/controllers/Manageuser.php 3
+ERROR - 2016-07-30 10:05:45 --> Severity: Compile Error --> require_once(): Failed opening required 'COMMON_APP_PATHmodels/vo/ManageUserVo.php' (include_path='.:') /Users/michael/Documents/workspace/mto_crm/application/controllers/Manageuser.php 3

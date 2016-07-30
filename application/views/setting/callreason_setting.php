@@ -24,7 +24,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 		<option value="<?=$rowset[$i]['project_ID'];?>" selected="selected"><?=$rowset[$i]['project_name'];?></option>
        <? }?>
 	  </select>
-        <input type="submit" name="Submit" value="�ύ" class="button"/></td>
+        <input type="submit" name="Submit" value="提交" class="button"/></td>
     </tr>
   </table>
 </form>
